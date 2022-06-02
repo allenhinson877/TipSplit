@@ -14,6 +14,7 @@
 		9FC3990827E0374400931ECF /* TipSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3990727E0374400931ECF /* TipSplitTests.swift */; };
 		9FC3991227E0374400931ECF /* TipSplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3991127E0374400931ECF /* TipSplitUITests.swift */; };
 		9FC3991427E0374400931ECF /* TipSplitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3991327E0374400931ECF /* TipSplitUITestsLaunchTests.swift */; };
+		9FC3992227E0C6DE00931ECF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3992127E0C6DE00931ECF /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9FC3990D27E0374400931ECF /* TipSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC3991127E0374400931ECF /* TipSplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipSplitUITests.swift; sourceTree = "<group>"; };
 		9FC3991327E0374400931ECF /* TipSplitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipSplitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FC3992127E0C6DE00931ECF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		9FC398F527E0374300931ECF /* TipSplit */ = {
 			isa = PBXGroup;
 			children = (
+				9FC3992027E0C6CB00931ECF /* Other */,
 				9FC398F627E0374300931ECF /* TipSplitApp.swift */,
 				9FC398F827E0374300931ECF /* ContentView.swift */,
 				9FC398FA27E0374400931ECF /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				9FC3991327E0374400931ECF /* TipSplitUITestsLaunchTests.swift */,
 			);
 			path = TipSplitUITests;
+			sourceTree = "<group>";
+		};
+		9FC3992027E0C6CB00931ECF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9FC3992127E0C6DE00931ECF /* Extensions.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC398F927E0374300931ECF /* ContentView.swift in Sources */,
+				9FC3992227E0C6DE00931ECF /* Extensions.swift in Sources */,
 				9FC398F727E0374300931ECF /* TipSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,7 +444,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mixedwithmusic.TipSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = WilliamHinson.TipSplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -461,7 +473,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mixedwithmusic.TipSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = WilliamHinson.TipSplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
